@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/bin_tree.dir/main.c.o CMakeFiles/bin_tree.dir/tree.c.o  -o bin_tree 

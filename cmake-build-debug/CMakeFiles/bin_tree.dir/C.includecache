@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/dev/2021/c/bin_tree/main.c
+tree.h
+/mnt/c/dev/2021/c/bin_tree/tree.h
+time.h
+-
+
+/mnt/c/dev/2021/c/bin_tree/tree.c
+tree.h
+/mnt/c/dev/2021/c/bin_tree/tree.h
+
+/mnt/c/dev/2021/c/bin_tree/tree.h
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+
