@@ -24,15 +24,15 @@ int main() {
     BranchTree(t0,t1,t2);
     BranchTree(t1,t3,t4);
     BranchTree(t2,NULL,t5);
+    PrintTree(t0,0);
     ReverseTree(t0);
+    PrintTree(t0,0);
 
 
 
     DelBranches(t0);
 
-    end = clock();
-    cpu_time_used = 1000000000000000000.0*((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("%.23lf\n", cpu_time_used);
+
 
     return 0;
 }
